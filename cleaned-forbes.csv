@@ -1,0 +1,56 @@
+ranking-2023,university,state,type,endowment-fy-begin,endowment-amount,ug-enrollment-year,ug-enrolled-total,ug-first-time-enrolled,ug-first-time-admitted
+1,Princeton University,NJ,Private-not-for-profit,2023,35800000000,2023,5598,1366,1782
+1,Princeton University,NJ,Private-not-for-profit,2022,37700000000,2022,5540,1497,2167
+1,Princeton University,NJ,Private-not-for-profit,2021,26200000000,2021,5240,1288,1647
+1,Princeton University,NJ,Private-not-for-profit,2020,26100000000,2020,4688,1146,1848
+1,Princeton University,NJ,Private-not-for-profit,2019,25900000000,2019,5328,1335,1895
+2,Yale University,CT,Private-not-for-profit,2023,41400000000,2023,6818,1641,2332
+2,Yale University,CT,Private-not-for-profit,2022,42300000000,2022,6645,1495,2289
+2,Yale University,CT,Private-not-for-profit,2021,31201700000,2021,6536,1786,2509
+2,Yale University,CT,Private-not-for-profit,2020,30314800000,2020,4703,1264,2299
+2,Yale University,CT,Private-not-for-profit,2019,29351100000,2019,6092,1550,2241
+3,Stanford University,CA,Private-not-for-profit,2023,36300000000,2023,8054,1699,2099
+3,Stanford University,CA,Private-not-for-profit,2022,37800000000,2022,8049,1736,2075
+3,Stanford University,CA,Private-not-for-profit,2021,47200000000,2021,7645,1757,2190
+3,Stanford University,CA,Private-not-for-profit,2020,27700000000,2020,6366,1607,2349
+3,Stanford University,CA,Private-not-for-profit,2019,26500000000,2019,6996,1701,2062
+4,Massachusetts Institute of Technology,MA,Private-not-for-profit,2023,24600000000,2023,4576,1094,1291
+4,Massachusetts Institute of Technology,MA,Private-not-for-profit,2022,27400000000,2022,4657,1136,1337
+4,Massachusetts Institute of Technology,MA,Private-not-for-profit,2021,18400000000,2021,4638,1177,1365
+4,Massachusetts Institute of Technology,MA,Private-not-for-profit,2020,17400000000,2020,4361,1070,1457
+4,Massachusetts Institute of Technology,MA,Private-not-for-profit,2019,16400000000,2019,4530,1102,1427
+5,"University of California, Berkeley",CA,Public,2023,29000000000,2023,33405,6641,14276
+5,"University of California, Berkeley",CA,Public,2022,26500000000,2022,32831,6726,14220
+5,"University of California, Berkeley",CA,Public,2021,29200000000,2021,32143,6931,15852
+5,"University of California, Berkeley",CA,Public,2020,21200000000,2020,30980,6117,15448
+5,"University of California, Berkeley",CA,Public,2019,20700000000,2019,31348,6465,14336
+6,Columbia University,NY,Private not-for-profit,2023,13643000000,2023,9704,-,-
+6,Columbia University,NY,Private not-for-profit,2022,13280000000,2022,9739,1540,2404
+6,Columbia University,NY,Private not-for-profit,2021,14350000000,2021,9664,8833,2505
+6,Columbia University,NY,Private not-for-profit,2020,11257000000,2020,8842,-,-
+6,Columbia University,NY,Private not-for-profit,2019,10951000000,2019,9001,-,-
+7,"University of California, Los Angeles",CA,Public,2023,5500000000,2023,33040,6585,12737
+7,"University of California, Los Angeles",CA,Public,2022,5000000000,2022,32423,6461,12844
+7,"University of California, Los Angeles",CA,Public,2021,5100000000,2021,32119,6584,15028
+7,"University of California, Los Angeles",CA,Public,2020,4000000000,2020,31636,6386,15602
+7,"University of California, Los Angeles",CA,Public,2019,3800000000,2019,31543,5920,13432
+8,University of Pennsylvania,PA,Private not-for-profit,2023,21000000000,2023,9995,2415,3489
+8,University of Pennsylvania,PA,Private not-for-profit,2022,20700000000,2022,9760,2415,3549
+8,University of Pennsylvania,PA,Private not-for-profit,2021,20500000000,2021,9962,2338,3304
+8,University of Pennsylvania,PA,Private not-for-profit,2020,14900000000,2020,9872,2285,3789
+8,University of Pennsylvania,PA,Private not-for-profit,2019,14700000000,2019,10019,2340,3446
+9,Harvard University,MA,Private not-for-profit,2023,50700000000,2023,7062,1644,1965
+9,Harvard University,MA,Private not-for-profit,2022,50900000000,2022,7240,1644,1984
+9,Harvard University,MA,Private not-for-profit,2021,53200000000,2021,7153,1949,2318
+9,Harvard University,MA,Private not-for-profit,2020,41900000000,2020,5222,1402,2015
+9,Harvard University,MA,Private not-for-profit,2019,40900000000,2019,6755,1644,2009
+10,Williams College,MA,Private not-for-profit,2023,3500000000,2023,2055,541,1145
+10,Williams College,MA,Private not-for-profit,2022,3500000000,2022,2152,577,1302
+10,Williams College,MA,Private not-for-profit,2021,4200000000,2021,2166,574,1099
+10,Williams College,MA,Private not-for-profit,2020,2800000000,2020,1962,482,1322
+10,Williams College,MA,Private not-for-profit,2019,2900000000,2019,2078,546,1224
+11,Amherst College,MA,Private not-for-profit,2023,4060000000,2023,1907,488,1250
+11,Amherst College,MA,Private not-for-profit,2022,4040000000,2022,1898,467,1079
+11,Amherst College,MA,Private not-for-profit,2021,4630000000,2021,1971,514,1224
+11,Amherst College,MA,Private not-for-profit,2020,3150000000,2020,1745,434,1254
+11,Amherst College,MA,Private not-for-profit,2019,2473000000,2019,1839,470,1195
