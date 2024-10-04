@@ -1,34 +1,27 @@
-# **Forbes 2023 Top Universities' Endowment vs. Undergraduate Enrollment & Admissions Rates (2019-2023)**
-Identifying any year-over-year trends for the top universities/colleges ranked in [Forbes' 2023 America's Top Colleges list](https://www.forbes.com/top-colleges/); comparing endowment rates to undergraduate admissions &amp; undergraduate enrollment rates. More specifically, gauging whether an increase in total endowment correlated to an increase in either first-time undergraduate admissions, total undergraduate enrollment or first-time undergraduate enrollment. "Top colleges/universities" alluded to in the analysis are comprised of the top 10 colleges/universities listed in Forbes' rankings; however, Columbia University (6th on the list) was excluded throughout EDA due to incomplete data - being replaced by the inclusion of Amherst College (11th on the list). Total endowments were gathered from relative financial sources for each college/university, while the rates of total admissions & enrollment were mainly gathered from a relative Common Data Set (CDS). The timeline for analysis used is the year range 2019-2023. \
-All source listings can be found [here](https://docs.google.com/spreadsheets/d/1Uaxu700eytkzg8kkCj1nVMXiTj0RdxPKqeJLKu9mH4E/edit?usp=sharing). Interactive Tableau dashboard can be found [here](https://public.tableau.com/shared/6TMSMQQ7R?:display_count=n&:origin=viz_share_link).
+# Forbes' 2023 Top Colleges/Universities Endowment Analysis
+
+To more readily identify if Universities are analagous with being a hedge-fund offering classes - as noted of Harvard by Scott Galloway in [this TED talk](https://www.youtube.com/watch?v=qEJ4hkpQW8E&t=336s) - I compiled and analyzed a dataset of 2019-2023 Endowment, First-Time Admittance, and Enrollment rates for [Forbes' 2023 America's Top Colleges list](https://www.forbes.com/top-colleges/), investigating any trends of negative correlation with endowment rates and admittance/enrollment rates. More explicitly, gauging whether an increase in total endowment correlated to a decrease in either first-time undergraduate admissions, total undergraduate enrollment or first-time undergraduate enrollment. Throughout this investigation, I used Python for data exploration, transformation, and visualization. 
+
+*"Top 10 colleges/universities" used in the analysis are comprised of the top 10 colleges/universities listed in Forbes' rankings; however, Columbia University (6th on the list) was excluded throughout EDA due to incomplete data - being replaced by the inclusion of Amherst College (11th on the list). Total endowments were gathered from relative financial sources for each college/university, while the rates of total admissions & enrollment were gathered from a relative Common Data Set (CDS), where available.*
+
+## Interactive Tableau Dashboard
+Interactive Tableau dashboard can be found [here](https://public.tableau.com/shared/6TMSMQQ7R?:display_count=n&:origin=viz_share_link). Users can filter by year and college/university, while switching between relative *Admissions* and *Enrollment* dashboards, providing key stakeholders with insights to inform strategic planning by visualizing seasonal trends.
 
 ![admissions-dash](https://github.com/user-attachments/assets/2a9236ac-36fe-4a30-96a1-d7ed895b78a9)
 ![enrollment-dash](https://github.com/user-attachments/assets/c235a1b3-abcf-4497-bb26-5b7bee7dcdc6)
 
+## Summary of Insights
+I identified an inverse trend between 2020-2021 endowment growth and admission rates for 70% of institutions - a significant increase in endowment coinciding with a significant decrease in admission rates. There seemed to be few patterns of trends in total endowment vs. undergraduate enrollment and undergraduate admissions. Most notably, 90% of universities saw an increase in endowment through 2019-2021. This trend changed during the following period of 2021-2022, observing that 60% of universities experienced a decrease in total endowment. 
 
-## **Summary of Insights**
-Generally, there seemed to be few patterns of trends in total endowment vs. undergraduate enrollment and undergraduate admissions. Most notably, 90% of universities saw an increase in endowment through 2019-2021. This trend changed during the following period of 2021-2022 - observing that 60% of universities experienced a decrease in total endowment. However, when observing the total endowments on a case-by-case basis, 70% of colleges/universities experienced a relatively large increase specifically from 2020-2021. Furthermore, through 2020-2021, 70% experienced a decrease in admissions rates.
+![upenn](https://github.com/user-attachments/assets/d0fc2c66-18a4-4f88-96e6-46178af32b41)
+![williams](https://github.com/user-attachments/assets/974647ac-7ebe-465c-a891-c23fcdde7dc8)
+
 
 ## **Recommendations**
-Overall, it may be advantageous to investigate the cause in the 2020-2021 spike for college/university endowment, as well as the observed decreases in admissions for the same period and determine if there is/are any correlation. A specific investigation which may gleam insight is the percentage of areas the college/university allocated spending to, for those with an experienced endowment spike, and if there is any correlation to the evidences of decreases in admissions.
+Investigating the cause in the 2020-2021 spike for college/university endowment, as well as the observed decreases in admissions for the same period and determine if there is/are any correlation. This may be caused by the first COVID-19 lockdown and the country entering a temporary "primarily-remote" epoch. However, further investigation may lead to trends in endowment allocation and if that possesses any correlation with admission/enrollment rates. The 70% of colleges/universities that experienced an endowment spike would be an advantageous place to begin investigating.
 
 ## **College/University Insights**
-1) Princeton doesn't seem to follow a correlation trend. It saw its comparitively biggest endowment increase at 43.8% from 2020-2021, with its relatively largest total enrollment rate at 11.77%. Even though the total endowment increased, admissions during this time period decreased by almost 11%, but drastically picked up by 31% from 2021-2022.
+*Refer to README in Jupyter notebook for relative insights.*
 
-2) Yale seems to have undegone a reciprocal increase/decrease pattern for total endowment and total enrollment, with total admittance following neither trend. It saw its biggest total endowment increase from 2021-2022 at 35.5%, with only a 1.67% increase in enrollment for the same year - admittance slowed during this period with an 8.77% decrease. Interestingly, the period prior (2020-2021) saw a 2.9% endowment increase, with the relatively largest enrollment increase at 38.98%.
-
-3) Stanford doesn't seem to undergo any correlation trends. Although unlike Princeton and Yale, Stanford saw its largest endowment increase from 2020-2021 at 70.4%, with a coinciding largest increase in enrollment for the same time period at 20.09%; however, during the same time period for admittance, there was a 6% decrease.
-
-4) MIT doesn't seem to undergo any ubiquitious correlation trends. There is an observed increase for both total endowment and total enrollment for the periods 2020-2021 & 2021-2022, but total admittance observed a decrease for both. MIT saw its comparitively largest endowment increase at 48.9% from 2021-2022, with a .41% increase in enrollment for the same year; 2020-2021 having the largest enrollment increase at 6.35%. During the largest endowment period (2021-2022), there was an observed 6% decrease in admittance, with a subsequent decrease for the last remaining time period.
-   
-5) University of California, Berkeley (UCB) seemed to follow a pattern where an increase/decrease in total endowment also correlated with an increase/decrease in total admittance. Total enrollment strayed from this pattern by indicating a decrease from 2019-2020, with subsequent enrollment increases throughout the remaining periods. 
-
-6) UCLA displayed an increase in total enrollment for all time periods with its total endowment generally increasing, 2021-2022 displaying a 1.96% decrease for the latter. Even though there was a ubiquitious increase in enrollment, total admittance generally decreased - with 2019-2020 being the only increase at 16.16%.
-
-7) UPenn saw total endowment increases for all time periods shown. The largest endowment increase occurred from 2020-2021 at 37.58%. Although there were consistent endowment increases, there were still total enrollment decreases from 2019-2020 and 2021-2022 - with total admittance decreases from 2020-2021 and 2022-2023.The largest total enrollment increase occurred from 2022-2023 at 2.41%. 
-   
-8) Harvard showed a coorelated increase/decrease pattern for all time periods when comparing total endowment to total first-time admittance - with the largest endowment increase being observed during 2020-2021 at a 26.97% increase, and the largest admittance increase during this same period being at 15.04%. Total enrollment also saw its largest increase during the same 2020-2021 period at 36.98%, however its general trend does not follow the same endowment:admittance observations. 
-
-9) Williams seems to follow a coorelated increase/decrease pattern, in regard to total endowment vs. total enrollment, for all time periods - with the only increase being observed during the 2020-2021 period. Although there was an observed 0% change from 2022-2023, Williams saw its largest total endowment increase of 50% from 2020-2021. During the same 2020-2021 period, William's largest total enrollment increase was observed at 10.4%.
-
-10) Amherst doesn't seem to follow a coorelation trend - although its largest total endowment change is observed from 2020-2021 at a 46.98% increase, with the largest total enrollment change occurring during the same period at a 12.95% increase. However, during this same time period, admittance rates decreased.
+## Contact
+Feel free to contact me on [LinkedIn](https://linkedin.com/in/takaris-seales)!
